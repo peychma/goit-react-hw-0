@@ -1,0 +1,10 @@
+.loadmorebutton {
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.loadmorebutton:hover {
+    background-color: gray;
+    border-color: white;
+    color: black;
+}
