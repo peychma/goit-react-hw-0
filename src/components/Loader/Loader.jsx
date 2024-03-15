@@ -1,4 +1,5 @@
 import React from 'react'
+import css from "./Loader.module.css"
 import { ThreeDots } from 'react-loader-spinner';
 
 const Loader = ({loading}) => {
@@ -6,7 +7,7 @@ const Loader = ({loading}) => {
     return null;
   }
   return (
-      <div> 
+      <div className={css.loader}> 
   <ThreeDots
   visible={true}
   height="80"
